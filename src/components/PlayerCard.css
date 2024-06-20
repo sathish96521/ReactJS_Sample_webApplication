@@ -1,0 +1,41 @@
+/* src/components/PlayerCard.css */
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .player-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .player-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .player-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .player-card p {
+    color: #777;
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+  
