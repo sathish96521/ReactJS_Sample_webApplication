@@ -1,11 +1,11 @@
 function dbConnection() {
     return {
-        connect: () => {
+        // connect: () => {
             // console.log('DB Connection opened');
-        },
-        disconnect: () => {
+        // },
+        // disconnect: () => {
             // console.log('DB Connection Closed');
-        }
+        // }
     }
 }
 export default dbConnection;

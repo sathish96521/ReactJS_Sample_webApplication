@@ -1,16 +1,16 @@
 import { useEffect } from "react";
-import dbConnection from "../dbConnection";
+// import dbConnection from "../dbConnection";
 
 const SampEffect = ({ counter }) => {
     // console.log(counter);
-    const conn = dbConnection();
+    // const conn = dbConnection();
 
     useEffect(() => {
-        conn.connect();
+        // conn.connect();
 
         //cleanUp work
         return () => {
-            conn.disconnect();
+            // conn.disconnect();
         }
     }, []);
 

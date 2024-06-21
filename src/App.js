@@ -14,6 +14,7 @@ import Register from './components/Register';
 import NishaSingla from './components/nisha';
 import Thinking from './components/ThinkingReact/ThinkingReact';
 import Counter from './components/QueueSeries';
+import Miscellanous from './components/Miscellanous';
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
           <Route path="/nisha" element={<NishaSingla />} />
           <Route path="/think" element={<Thinking />} />
           <Route path="/count" element={<Counter />} />
+          <Route path="/miscel" element={<Miscellanous />} />
         </Routes>
       </div>
     </Router>

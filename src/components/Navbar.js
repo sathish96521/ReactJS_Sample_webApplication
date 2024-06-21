@@ -20,6 +20,7 @@ function NavbarScreen() {
             <Nav.Link as={Link} to="/nisha">NishaSingla</Nav.Link>
             <Nav.Link as={Link} to="/think">Thinking</Nav.Link>
             <Nav.Link as={Link} to="/count">Counter</Nav.Link>
+            <Nav.Link as={Link} to="/miscel">Miscellanous</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/register">Register</Nav.Link>
